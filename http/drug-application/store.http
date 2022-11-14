@@ -1,0 +1,17 @@
+PUT {{server}}/drugApplication
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+{
+  "applicationNumber": "BLA761037",
+  "manufacturerNames": [
+    "sanofi-aventis U.S. LLC"
+  ],
+  "substanceNames": [
+    "SARILUMAB"
+  ],
+  "productNumbers": [
+    "001",
+    "002"
+  ]
+}

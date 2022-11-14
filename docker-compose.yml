@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  postgresql:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=drugsfdadb
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=drugsfdadb
+    ports:
+      - 5432:5432

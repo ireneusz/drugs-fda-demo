@@ -1,0 +1,3 @@
+GET {{server}}/fda/search?page=0&size=10&manufacturerName=sanofi
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}

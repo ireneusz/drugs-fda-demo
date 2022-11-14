@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>drugsfda</artifactId>
+        <groupId>com.ipcode.drugsfda</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>drugsfda-persistence-postgres</artifactId>
+    <properties>
+        <flyway.driver>org.postgresql.Driver</flyway.driver>
+        <flyway.url>jdbc:postgresql://localhost:5432/drugsfdadb</flyway.url>
+        <flyway.user>drugsfdadb</flyway.user>
+        <flyway.password>password</flyway.password>
+        <flyway.locations>classpath:db/migration/prd</flyway.locations>
+        <flyway.schemas>drugsfdadb</flyway.schemas>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>${postgresql.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ipcode.drugsfda</groupId>
+            <artifactId>drugsfda-persistence-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.flywaydb</groupId>
+                <artifactId>flyway-maven-plugin</artifactId>
+                <version>${flyway.version}</version>
+                <configuration>
+                    <driver>${flyway.driver}</driver>
+                    <url>${flyway.url}</url>
+                    <user>${flyway.user}</user>
+                    <password>${flyway.password}</password>
+                    <schemas>${flyway.schemas}</schemas>
+                    <baselineVersion>0</baselineVersion>
+                    <sqlMigrationPrefix>V_</sqlMigrationPrefix>
+                    <table>schema_version</table>
+                    <locations>
+                        <location>${flyway.locations}</location>
+                    </locations>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

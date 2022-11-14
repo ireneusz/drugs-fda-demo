@@ -1,0 +1,537 @@
+INFO 2022-11-11 15:48:53 org.hibernate.validator.internal.util.Version module:drugsfda - HV000001: Hibernate Validator 6.2.5.Final
+INFO 2022-11-11 15:48:53 com.ipcode.drugsfda.DrugsfdaApplication module:drugsfda - Starting DrugsfdaApplication using Java 17.0.4 on PLWAWLiptak with PID 26264 (C:\priv\priv_projects\drugsfda\target\classes started by iptak in C:\priv\priv_projects\drugsfda)
+INFO 2022-11-11 15:48:53 com.ipcode.drugsfda.DrugsfdaApplication module:drugsfda - The following 1 profile is active: "dev"
+INFO 2022-11-11 15:48:54 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Multiple Spring Data modules found, entering strict repository configuration mode
+INFO 2022-11-11 15:48:54 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+INFO 2022-11-11 15:48:54 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+INFO 2022-11-11 15:48:54 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Multiple Spring Data modules found, entering strict repository configuration mode
+INFO 2022-11-11 15:48:54 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-11 15:48:54 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+INFO 2022-11-11 15:48:54 org.springframework.cloud.context.scope.GenericScope module:drugsfda - BeanFactory id=de5b827c-bcaa-3519-b276-f3fa098702b8
+INFO 2022-11-11 15:48:54 org.springframework.boot.web.embedded.tomcat.TomcatWebServer module:drugsfda - Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-11 15:48:54 org.apache.coyote.http11.Http11NioProtocol module:drugsfda - Initializing ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-11 15:48:54 org.apache.catalina.core.StandardService module:drugsfda - Starting service [Tomcat]
+INFO 2022-11-11 15:48:54 org.apache.catalina.core.StandardEngine module:drugsfda - Starting Servlet engine: [Apache Tomcat/9.0.68]
+INFO 2022-11-11 15:48:54 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/drugsfda] module:drugsfda - Initializing Spring embedded WebApplicationContext
+INFO 2022-11-11 15:48:54 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext module:drugsfda - Root WebApplicationContext: initialization completed in 1535 ms
+INFO 2022-11-11 15:48:55 org.flywaydb.core.internal.license.VersionPrinter module:drugsfda - Flyway Community Edition 8.5.13 by Redgate
+INFO 2022-11-11 15:48:55 org.flywaydb.core.internal.license.VersionPrinter module:drugsfda - See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+INFO 2022-11-11 15:48:55 org.flywaydb.core.internal.license.VersionPrinter module:drugsfda - 
+INFO 2022-11-11 15:48:55 org.flywaydb.core.internal.database.base.BaseDatabaseType module:drugsfda - Database: jdbc:postgresql://localhost:5432/drugsfda (PostgreSQL 13.9)
+INFO 2022-11-11 15:48:55 org.flywaydb.core.internal.command.DbValidate module:drugsfda - Successfully validated 1 migration (execution time 00:00.013s)
+INFO 2022-11-11 15:48:55 org.flywaydb.core.internal.command.DbMigrate module:drugsfda - Current version of schema "drugsfda": null
+INFO 2022-11-11 15:48:55 org.flywaydb.core.internal.command.DbMigrate module:drugsfda - Schema "drugsfda" is up to date. No migration necessary.
+INFO 2022-11-11 15:48:55 org.hibernate.jpa.internal.util.LogHelper module:drugsfda - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-11-11 15:48:55 org.hibernate.Version module:drugsfda - HHH000412: Hibernate ORM core version 5.6.12.Final
+INFO 2022-11-11 15:48:55 org.hibernate.annotations.common.Version module:drugsfda - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-11-11 15:48:55 com.zaxxer.hikari.HikariDataSource module:drugsfda - hikari-pool - Starting...
+INFO 2022-11-11 15:48:55 com.zaxxer.hikari.HikariDataSource module:drugsfda - hikari-pool - Start completed.
+INFO 2022-11-11 15:48:55 org.hibernate.dialect.Dialect module:drugsfda - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO 2022-11-11 15:48:55 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator module:drugsfda - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-11-11 15:48:55 org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean module:drugsfda - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-11 15:48:55 com.ipcode.drugsfda.infrastructure.client.fda.FdaClientProperties module:drugsfda - FdaClientProperties loaded: FdaClientProperties(baseUrl=https://api.fda.gov)
+INFO 2022-11-11 15:48:57 org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver module:drugsfda - Exposing 4 endpoint(s) beneath base path '/actuator'
+INFO 2022-11-11 15:48:57 org.apache.coyote.http11.Http11NioProtocol module:drugsfda - Starting ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-11 15:48:57 org.springframework.boot.web.embedded.tomcat.TomcatWebServer module:drugsfda - Tomcat started on port(s): 8080 (http) with context path '/drugsfda'
+INFO 2022-11-11 15:48:57 com.ipcode.drugsfda.DrugsfdaApplication module:drugsfda - Started DrugsfdaApplication in 5.119 seconds (JVM running for 5.943)
+INFO 2022-11-11 15:48:57 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/drugsfda] module:drugsfda - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2022-11-11 15:48:57 org.springframework.web.servlet.DispatcherServlet module:drugsfda - Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-11 15:48:57 org.springframework.web.servlet.DispatcherServlet module:drugsfda - Completed initialization in 2 ms
+INFO 2022-11-11 15:49:03 org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean module:drugsfda - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-11 15:49:03 com.zaxxer.hikari.HikariDataSource module:drugsfda - hikari-pool - Shutdown initiated...
+INFO 2022-11-11 15:49:03 com.zaxxer.hikari.HikariDataSource module:drugsfda - hikari-pool - Shutdown completed.
+INFO 2022-11-11 15:49:52 org.hibernate.validator.internal.util.Version module:drugsfda - HV000001: Hibernate Validator 6.2.5.Final
+INFO 2022-11-11 15:49:52 com.ipcode.drugsfda.DrugsfdaApplication module:drugsfda - Starting DrugsfdaApplication using Java 17.0.4 on PLWAWLiptak with PID 28436 (C:\priv\priv_projects\drugsfda\target\classes started by iptak in C:\priv\priv_projects\drugsfda)
+INFO 2022-11-11 15:49:52 com.ipcode.drugsfda.DrugsfdaApplication module:drugsfda - The following 1 profile is active: "dev"
+INFO 2022-11-11 15:49:53 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Multiple Spring Data modules found, entering strict repository configuration mode
+INFO 2022-11-11 15:49:53 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+INFO 2022-11-11 15:49:53 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+INFO 2022-11-11 15:49:53 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Multiple Spring Data modules found, entering strict repository configuration mode
+INFO 2022-11-11 15:49:53 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-11 15:49:53 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+INFO 2022-11-11 15:49:54 org.springframework.cloud.context.scope.GenericScope module:drugsfda - BeanFactory id=de5b827c-bcaa-3519-b276-f3fa098702b8
+INFO 2022-11-11 15:49:54 org.springframework.boot.web.embedded.tomcat.TomcatWebServer module:drugsfda - Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-11 15:49:54 org.apache.coyote.http11.Http11NioProtocol module:drugsfda - Initializing ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-11 15:49:54 org.apache.catalina.core.StandardService module:drugsfda - Starting service [Tomcat]
+INFO 2022-11-11 15:49:54 org.apache.catalina.core.StandardEngine module:drugsfda - Starting Servlet engine: [Apache Tomcat/9.0.68]
+INFO 2022-11-11 15:49:54 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/drugsfda] module:drugsfda - Initializing Spring embedded WebApplicationContext
+INFO 2022-11-11 15:49:54 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext module:drugsfda - Root WebApplicationContext: initialization completed in 1640 ms
+INFO 2022-11-11 15:49:54 org.flywaydb.core.internal.license.VersionPrinter module:drugsfda - Flyway Community Edition 8.5.13 by Redgate
+INFO 2022-11-11 15:49:54 org.flywaydb.core.internal.license.VersionPrinter module:drugsfda - See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+INFO 2022-11-11 15:49:54 org.flywaydb.core.internal.license.VersionPrinter module:drugsfda - 
+INFO 2022-11-11 15:49:54 org.flywaydb.core.internal.database.base.BaseDatabaseType module:drugsfda - Database: jdbc:postgresql://localhost:5432/drugsfda (PostgreSQL 13.9)
+INFO 2022-11-11 15:49:54 org.flywaydb.core.internal.command.DbValidate module:drugsfda - Successfully validated 1 migration (execution time 00:00.015s)
+INFO 2022-11-11 15:49:54 org.flywaydb.core.internal.command.DbMigrate module:drugsfda - Current version of schema "drugsfda": null
+INFO 2022-11-11 15:49:54 org.flywaydb.core.internal.command.DbMigrate module:drugsfda - Schema "drugsfda" is up to date. No migration necessary.
+INFO 2022-11-11 15:49:54 org.hibernate.jpa.internal.util.LogHelper module:drugsfda - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-11-11 15:49:54 org.hibernate.Version module:drugsfda - HHH000412: Hibernate ORM core version 5.6.12.Final
+INFO 2022-11-11 15:49:54 org.hibernate.annotations.common.Version module:drugsfda - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-11-11 15:49:54 com.zaxxer.hikari.HikariDataSource module:drugsfda - hikari-pool - Starting...
+INFO 2022-11-11 15:49:55 com.zaxxer.hikari.HikariDataSource module:drugsfda - hikari-pool - Start completed.
+INFO 2022-11-11 15:49:55 org.hibernate.dialect.Dialect module:drugsfda - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO 2022-11-11 15:49:55 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator module:drugsfda - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-11-11 15:49:55 org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean module:drugsfda - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-11 15:49:55 com.ipcode.drugsfda.infrastructure.client.fda.FdaClientProperties module:drugsfda - FdaClientProperties loaded: FdaClientProperties(baseUrl=https://api.fda.gov)
+INFO 2022-11-11 15:49:56 org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver module:drugsfda - Exposing 4 endpoint(s) beneath base path '/actuator'
+INFO 2022-11-11 15:49:56 org.apache.coyote.http11.Http11NioProtocol module:drugsfda - Starting ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-11 15:49:56 org.springframework.boot.web.embedded.tomcat.TomcatWebServer module:drugsfda - Tomcat started on port(s): 8080 (http) with context path '/drugsfda'
+INFO 2022-11-11 15:49:57 com.ipcode.drugsfda.DrugsfdaApplication module:drugsfda - Started DrugsfdaApplication in 5.538 seconds (JVM running for 6.675)
+INFO 2022-11-11 15:49:57 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/drugsfda] module:drugsfda - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2022-11-11 15:49:57 org.springframework.web.servlet.DispatcherServlet module:drugsfda - Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-11 15:49:57 org.springframework.web.servlet.DispatcherServlet module:drugsfda - Completed initialization in 2 ms
+WARN 2022-11-11 15:52:42 com.zaxxer.hikari.pool.HikariPool module:drugsfda - hikari-pool - Thread starvation or clock leap detected (housekeeper delta=2m47s426ms435µs800ns).
+INFO 2022-11-11 15:52:42 org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean module:drugsfda - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-11 15:52:42 com.zaxxer.hikari.HikariDataSource module:drugsfda - hikari-pool - Shutdown initiated...
+INFO 2022-11-11 15:52:42 com.zaxxer.hikari.HikariDataSource module:drugsfda - hikari-pool - Shutdown completed.
+INFO 2022-11-11 15:53:17 org.hibernate.validator.internal.util.Version module:drugsfda - HV000001: Hibernate Validator 6.2.5.Final
+INFO 2022-11-11 15:53:17 com.ipcode.drugsfda.DrugsfdaApplication module:drugsfda - Starting DrugsfdaApplication using Java 17.0.4 on PLWAWLiptak with PID 26060 (C:\priv\priv_projects\drugsfda\target\classes started by iptak in C:\priv\priv_projects\drugsfda)
+DEBUG 2022-11-11 15:53:17 com.ipcode.drugsfda.DrugsfdaApplication module:drugsfda - Running with Spring Boot v2.7.5, Spring v5.3.23
+INFO 2022-11-11 15:53:17 com.ipcode.drugsfda.DrugsfdaApplication module:drugsfda - The following 1 profile is active: "dev"
+INFO 2022-11-11 15:53:18 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Multiple Spring Data modules found, entering strict repository configuration mode
+INFO 2022-11-11 15:53:18 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+INFO 2022-11-11 15:53:18 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+INFO 2022-11-11 15:53:18 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Multiple Spring Data modules found, entering strict repository configuration mode
+INFO 2022-11-11 15:53:18 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-11 15:53:18 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+INFO 2022-11-11 15:53:18 org.springframework.cloud.context.scope.GenericScope module:drugsfda - BeanFactory id=de5b827c-bcaa-3519-b276-f3fa098702b8
+INFO 2022-11-11 15:53:18 org.springframework.boot.web.embedded.tomcat.TomcatWebServer module:drugsfda - Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-11 15:53:18 org.apache.coyote.http11.Http11NioProtocol module:drugsfda - Initializing ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-11 15:53:18 org.apache.catalina.core.StandardService module:drugsfda - Starting service [Tomcat]
+INFO 2022-11-11 15:53:18 org.apache.catalina.core.StandardEngine module:drugsfda - Starting Servlet engine: [Apache Tomcat/9.0.68]
+INFO 2022-11-11 15:53:18 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/drugsfda] module:drugsfda - Initializing Spring embedded WebApplicationContext
+INFO 2022-11-11 15:53:18 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext module:drugsfda - Root WebApplicationContext: initialization completed in 1301 ms
+INFO 2022-11-11 15:53:18 org.flywaydb.core.internal.license.VersionPrinter module:drugsfda - Flyway Community Edition 8.5.13 by Redgate
+INFO 2022-11-11 15:53:18 org.flywaydb.core.internal.license.VersionPrinter module:drugsfda - See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+INFO 2022-11-11 15:53:18 org.flywaydb.core.internal.license.VersionPrinter module:drugsfda - 
+INFO 2022-11-11 15:53:18 org.flywaydb.core.internal.database.base.BaseDatabaseType module:drugsfda - Database: jdbc:postgresql://localhost:5432/drugsfda (PostgreSQL 13.9)
+INFO 2022-11-11 15:53:18 org.flywaydb.core.internal.command.DbValidate module:drugsfda - Successfully validated 1 migration (execution time 00:00.013s)
+INFO 2022-11-11 15:53:18 org.flywaydb.core.internal.command.DbMigrate module:drugsfda - Current version of schema "drugsfda": null
+INFO 2022-11-11 15:53:18 org.flywaydb.core.internal.command.DbMigrate module:drugsfda - Schema "drugsfda" is up to date. No migration necessary.
+INFO 2022-11-11 15:53:18 org.hibernate.jpa.internal.util.LogHelper module:drugsfda - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-11-11 15:53:18 org.hibernate.Version module:drugsfda - HHH000412: Hibernate ORM core version 5.6.12.Final
+INFO 2022-11-11 15:53:19 org.hibernate.annotations.common.Version module:drugsfda - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-11-11 15:53:19 com.zaxxer.hikari.HikariDataSource module:drugsfda - hikari-pool - Starting...
+INFO 2022-11-11 15:53:19 com.zaxxer.hikari.HikariDataSource module:drugsfda - hikari-pool - Start completed.
+INFO 2022-11-11 15:53:19 org.hibernate.dialect.Dialect module:drugsfda - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO 2022-11-11 15:53:19 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator module:drugsfda - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-11-11 15:53:19 org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean module:drugsfda - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-11 15:53:19 com.ipcode.drugsfda.infrastructure.client.fda.FdaClientProperties module:drugsfda - FdaClientProperties loaded: FdaClientProperties(baseUrl=https://api.fda.gov)
+INFO 2022-11-11 15:53:20 org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver module:drugsfda - Exposing 4 endpoint(s) beneath base path '/actuator'
+INFO 2022-11-11 15:53:20 org.apache.coyote.http11.Http11NioProtocol module:drugsfda - Starting ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-11 15:53:20 org.springframework.boot.web.embedded.tomcat.TomcatWebServer module:drugsfda - Tomcat started on port(s): 8080 (http) with context path '/drugsfda'
+INFO 2022-11-11 15:53:21 com.ipcode.drugsfda.DrugsfdaApplication module:drugsfda - Started DrugsfdaApplication in 4.71 seconds (JVM running for 5.702)
+INFO 2022-11-11 15:53:21 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/drugsfda] module:drugsfda - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2022-11-11 15:53:21 org.springframework.web.servlet.DispatcherServlet module:drugsfda - Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-11 15:53:21 org.springframework.web.servlet.DispatcherServlet module:drugsfda - Completed initialization in 1 ms
+DEBUG 2022-11-11 15:54:00 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] ---> GET https://api.fda.gov/drug/drugsfda.json HTTP/1.1
+DEBUG 2022-11-11 15:54:00 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] ---> END HTTP (0-byte body)
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] <--- HTTP/1.1 200 OK (973ms)
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] access-control-allow-credentials: true
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] access-control-allow-origin: *
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] age: 0
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] cache-control: no-cache, no-store, must-revalidate
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] connection: keep-alive
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] content-length: 5563
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] content-security-policy: default-src 'none'
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] content-type: application/json; charset=utf-8
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] date: Fri, 11 Nov 2022 14:54:01 GMT
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] etag: W/"15bb-NqaDla329JjPZvKpOJwKF4DLXtI"
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] link: <https://api.fda.gov/drug/drugsfda.json?skip=0&limit=1&search_after=0%3D-0UUZoQBKNekD4M60735>; rel="next"
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] strict-transport-security: max-age=31536000; preload
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] strict-transport-security: max-age=31536000;
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] vary: Accept-Encoding
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] vary: Accept-Encoding
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] via: http/1.1 api-umbrella (ApacheTrafficServer [cMsSf ])
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] x-cache: MISS
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] x-content-type-options: nosniff
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] x-frame-options: deny
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] x-xss-protection: 1; mode=block
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] 
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] {
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2022-11-08",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 26032
+    }
+  },
+  "results": [
+    {
+      "submissions": [
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "3",
+          "submission_status": "AP",
+          "submission_status_date": "20030103",
+          "review_priority": "STANDARD",
+          "submission_class_code": "MANUF (CMC)",
+          "submission_class_code_description": "Manufacturing (CMC)",
+          "application_docs": [
+            {
+              "id": "42046",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2003/021241_s003_OrthoTOC.cfm",
+              "date": "20060711",
+              "type": "Review"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "27",
+          "submission_status": "AP",
+          "submission_status_date": "20170809",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling",
+          "application_docs": [
+            {
+              "id": "49293",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2017/021241s027lbl.pdf",
+              "date": "20170809",
+              "type": "Label"
+            },
+            {
+              "id": "49373",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/021241Orig1s027ltr.pdf",
+              "date": "20170815",
+              "type": "Letter"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "25",
+          "submission_status": "AP",
+          "submission_status_date": "20150731",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling",
+          "application_docs": [
+            {
+              "id": "14713",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2015/021241s025lbl.pdf",
+              "date": "20150804",
+              "type": "Label"
+            },
+            {
+              "id": "27176",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2015/021241Orig1s025ltr.pdf",
+              "date": "20150803",
+              "type": "Letter"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "17",
+          "submission_status": "AP",
+          "submission_status_date": "20120618",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling",
+          "application_docs": [
+            {
+              "id": "27175",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2012/017735s107,17919s089,018985s053,019653s048,19697s044,20301s027,21241s017ltr.pdf",
+              "date": "20120620",
+              "type": "Letter"
+            },
+            {
+              "id": "36433",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2012/021241s017lbl.pdf",
+              "date": "20120713",
+              "type": "Label"
+            }
+          ]
+        },
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20020822",
+          "review_priority": "STANDARD",
+          "submission_class_code": "TYPE 3",
+          "submission_class_code_description": "Type 3 - New Dosage Form",
+          "application_docs": [
+            {
+              "id": "42045",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/021241_sooo_Orthotricyclene.cfm",
+              "date": "20040826",
+              "type": "Review"
+            },
+            {
+              "id": "14712",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2002/21241lbl.pdf",
+              "date": "20020822",
+              "type": "Label"
+            },
+            {
+              "id": "27174",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2002/21241ltr.pdf",
+              "date": "20020822",
+              "type": "Letter"
+            }
+          ]
+        }
+      ],
+      "application_number": "NDA021241",
+      "sponsor_name": "JANSSEN PHARMS",
+      "products": [
+        {
+          "product_number": "001",
+          "reference_drug": "Yes",
+          "brand_name": "ORTHO TRI-CYCLEN LO",
+          "active_ingredients": [
+            {
+              "name": "ETHINYL ESTRADIOL",
+              "strength": "0.025MG,0.025MG,0.025MG"
+            },
+            {
+              "name": "NORGESTIMATE",
+              "strength": "0.18MG,0.215MG,0.25MG **Federal Register determination that product was not discontinued or withdrawn for safety or effectiveness reasons**"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET",
+          "route": "ORAL-28",
+          "marketing_status": "Discontinued"
+        }
+      ]
+    }
+  ]
+}
+DEBUG 2022-11-11 15:54:01 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] <--- END HTTP (5563-byte body)
+WARN 2022-11-11 15:56:30 com.zaxxer.hikari.pool.HikariPool module:drugsfda - hikari-pool - Thread starvation or clock leap detected (housekeeper delta=2m41s207ms695µs600ns).
+INFO 2022-11-11 15:56:30 org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean module:drugsfda - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-11 15:56:30 com.zaxxer.hikari.HikariDataSource module:drugsfda - hikari-pool - Shutdown initiated...
+INFO 2022-11-11 15:56:30 com.zaxxer.hikari.HikariDataSource module:drugsfda - hikari-pool - Shutdown completed.
+INFO 2022-11-11 15:56:40 org.hibernate.validator.internal.util.Version module:drugsfda - HV000001: Hibernate Validator 6.2.5.Final
+INFO 2022-11-11 15:56:40 com.ipcode.drugsfda.DrugsfdaApplication module:drugsfda - Starting DrugsfdaApplication using Java 17.0.4 on PLWAWLiptak with PID 4796 (C:\priv\priv_projects\drugsfda\target\classes started by iptak in C:\priv\priv_projects\drugsfda)
+DEBUG 2022-11-11 15:56:40 com.ipcode.drugsfda.DrugsfdaApplication module:drugsfda - Running with Spring Boot v2.7.5, Spring v5.3.23
+INFO 2022-11-11 15:56:40 com.ipcode.drugsfda.DrugsfdaApplication module:drugsfda - The following 1 profile is active: "dev"
+INFO 2022-11-11 15:56:41 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Multiple Spring Data modules found, entering strict repository configuration mode
+INFO 2022-11-11 15:56:41 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+INFO 2022-11-11 15:56:41 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+INFO 2022-11-11 15:56:41 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Multiple Spring Data modules found, entering strict repository configuration mode
+INFO 2022-11-11 15:56:41 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-11 15:56:41 org.springframework.data.repository.config.RepositoryConfigurationDelegate module:drugsfda - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+INFO 2022-11-11 15:56:41 org.springframework.cloud.context.scope.GenericScope module:drugsfda - BeanFactory id=de5b827c-bcaa-3519-b276-f3fa098702b8
+INFO 2022-11-11 15:56:41 org.springframework.boot.web.embedded.tomcat.TomcatWebServer module:drugsfda - Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-11 15:56:41 org.apache.coyote.http11.Http11NioProtocol module:drugsfda - Initializing ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-11 15:56:41 org.apache.catalina.core.StandardService module:drugsfda - Starting service [Tomcat]
+INFO 2022-11-11 15:56:41 org.apache.catalina.core.StandardEngine module:drugsfda - Starting Servlet engine: [Apache Tomcat/9.0.68]
+INFO 2022-11-11 15:56:42 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/drugsfda] module:drugsfda - Initializing Spring embedded WebApplicationContext
+INFO 2022-11-11 15:56:42 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext module:drugsfda - Root WebApplicationContext: initialization completed in 1343 ms
+INFO 2022-11-11 15:56:42 org.flywaydb.core.internal.license.VersionPrinter module:drugsfda - Flyway Community Edition 8.5.13 by Redgate
+INFO 2022-11-11 15:56:42 org.flywaydb.core.internal.license.VersionPrinter module:drugsfda - See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+INFO 2022-11-11 15:56:42 org.flywaydb.core.internal.license.VersionPrinter module:drugsfda - 
+INFO 2022-11-11 15:56:42 org.flywaydb.core.internal.database.base.BaseDatabaseType module:drugsfda - Database: jdbc:postgresql://localhost:5432/drugsfda (PostgreSQL 13.9)
+INFO 2022-11-11 15:56:42 org.flywaydb.core.internal.command.DbValidate module:drugsfda - Successfully validated 1 migration (execution time 00:00.013s)
+INFO 2022-11-11 15:56:42 org.flywaydb.core.internal.command.DbMigrate module:drugsfda - Current version of schema "drugsfda": null
+INFO 2022-11-11 15:56:42 org.flywaydb.core.internal.command.DbMigrate module:drugsfda - Schema "drugsfda" is up to date. No migration necessary.
+INFO 2022-11-11 15:56:42 org.hibernate.jpa.internal.util.LogHelper module:drugsfda - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-11-11 15:56:42 org.hibernate.Version module:drugsfda - HHH000412: Hibernate ORM core version 5.6.12.Final
+INFO 2022-11-11 15:56:42 org.hibernate.annotations.common.Version module:drugsfda - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-11-11 15:56:42 com.zaxxer.hikari.HikariDataSource module:drugsfda - hikari-pool - Starting...
+INFO 2022-11-11 15:56:42 com.zaxxer.hikari.HikariDataSource module:drugsfda - hikari-pool - Start completed.
+INFO 2022-11-11 15:56:42 org.hibernate.dialect.Dialect module:drugsfda - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO 2022-11-11 15:56:43 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator module:drugsfda - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-11-11 15:56:43 org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean module:drugsfda - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-11 15:56:43 com.ipcode.drugsfda.infrastructure.client.fda.FdaClientProperties module:drugsfda - FdaClientProperties loaded: FdaClientProperties(baseUrl=https://api.fda.gov)
+INFO 2022-11-11 15:56:44 org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver module:drugsfda - Exposing 4 endpoint(s) beneath base path '/actuator'
+INFO 2022-11-11 15:56:44 org.apache.coyote.http11.Http11NioProtocol module:drugsfda - Starting ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-11 15:56:44 org.springframework.boot.web.embedded.tomcat.TomcatWebServer module:drugsfda - Tomcat started on port(s): 8080 (http) with context path '/drugsfda'
+INFO 2022-11-11 15:56:44 com.ipcode.drugsfda.DrugsfdaApplication module:drugsfda - Started DrugsfdaApplication in 4.907 seconds (JVM running for 5.754)
+INFO 2022-11-11 15:56:45 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/drugsfda] module:drugsfda - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2022-11-11 15:56:45 org.springframework.web.servlet.DispatcherServlet module:drugsfda - Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-11 15:56:45 org.springframework.web.servlet.DispatcherServlet module:drugsfda - Completed initialization in 3 ms
+DEBUG 2022-11-11 15:56:55 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] ---> GET https://api.fda.gov/drug/drugsfda.json HTTP/1.1
+DEBUG 2022-11-11 15:56:55 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] ---> END HTTP (0-byte body)
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] <--- HTTP/1.1 200 OK (1090ms)
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] access-control-allow-credentials: true
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] access-control-allow-origin: *
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] age: 1
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] cache-control: no-cache, no-store, must-revalidate
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] connection: keep-alive
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] content-length: 5563
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] content-security-policy: default-src 'none'
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] content-type: application/json; charset=utf-8
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] date: Fri, 11 Nov 2022 14:56:57 GMT
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] etag: W/"15bb-NqaDla329JjPZvKpOJwKF4DLXtI"
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] link: <https://api.fda.gov/drug/drugsfda.json?skip=0&limit=1&search_after=0%3D-0UUZoQBKNekD4M60735>; rel="next"
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] strict-transport-security: max-age=31536000; preload
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] strict-transport-security: max-age=31536000;
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] vary: Accept-Encoding
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] vary: Accept-Encoding
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] via: http/1.1 api-umbrella (ApacheTrafficServer [cMsSf ])
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] x-cache: MISS
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] x-content-type-options: nosniff
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] x-frame-options: deny
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] x-xss-protection: 1; mode=block
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] 
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] {
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2022-11-08",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 26032
+    }
+  },
+  "results": [
+    {
+      "submissions": [
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "3",
+          "submission_status": "AP",
+          "submission_status_date": "20030103",
+          "review_priority": "STANDARD",
+          "submission_class_code": "MANUF (CMC)",
+          "submission_class_code_description": "Manufacturing (CMC)",
+          "application_docs": [
+            {
+              "id": "42046",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2003/021241_s003_OrthoTOC.cfm",
+              "date": "20060711",
+              "type": "Review"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "27",
+          "submission_status": "AP",
+          "submission_status_date": "20170809",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling",
+          "application_docs": [
+            {
+              "id": "49293",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2017/021241s027lbl.pdf",
+              "date": "20170809",
+              "type": "Label"
+            },
+            {
+              "id": "49373",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/021241Orig1s027ltr.pdf",
+              "date": "20170815",
+              "type": "Letter"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "25",
+          "submission_status": "AP",
+          "submission_status_date": "20150731",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling",
+          "application_docs": [
+            {
+              "id": "14713",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2015/021241s025lbl.pdf",
+              "date": "20150804",
+              "type": "Label"
+            },
+            {
+              "id": "27176",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2015/021241Orig1s025ltr.pdf",
+              "date": "20150803",
+              "type": "Letter"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "17",
+          "submission_status": "AP",
+          "submission_status_date": "20120618",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling",
+          "application_docs": [
+            {
+              "id": "27175",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2012/017735s107,17919s089,018985s053,019653s048,19697s044,20301s027,21241s017ltr.pdf",
+              "date": "20120620",
+              "type": "Letter"
+            },
+            {
+              "id": "36433",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2012/021241s017lbl.pdf",
+              "date": "20120713",
+              "type": "Label"
+            }
+          ]
+        },
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20020822",
+          "review_priority": "STANDARD",
+          "submission_class_code": "TYPE 3",
+          "submission_class_code_description": "Type 3 - New Dosage Form",
+          "application_docs": [
+            {
+              "id": "42045",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/021241_sooo_Orthotricyclene.cfm",
+              "date": "20040826",
+              "type": "Review"
+            },
+            {
+              "id": "14712",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2002/21241lbl.pdf",
+              "date": "20020822",
+              "type": "Label"
+            },
+            {
+              "id": "27174",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2002/21241ltr.pdf",
+              "date": "20020822",
+              "type": "Letter"
+            }
+          ]
+        }
+      ],
+      "application_number": "NDA021241",
+      "sponsor_name": "JANSSEN PHARMS",
+      "products": [
+        {
+          "product_number": "001",
+          "reference_drug": "Yes",
+          "brand_name": "ORTHO TRI-CYCLEN LO",
+          "active_ingredients": [
+            {
+              "name": "ETHINYL ESTRADIOL",
+              "strength": "0.025MG,0.025MG,0.025MG"
+            },
+            {
+              "name": "NORGESTIMATE",
+              "strength": "0.18MG,0.215MG,0.25MG **Federal Register determination that product was not discontinued or withdrawn for safety or effectiveness reasons**"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET",
+          "route": "ORAL-28",
+          "marketing_status": "Discontinued"
+        }
+      ]
+    }
+  ]
+}
+DEBUG 2022-11-11 15:56:57 com.ipcode.drugsfda.infrastructure.client.fda.FdaClient module:drugsfda - [FdaClient#searchDrugsFda] <--- END HTTP (5563-byte body)
+WARN 2022-11-11 16:03:18 com.zaxxer.hikari.pool.HikariPool module:drugsfda - hikari-pool - Thread starvation or clock leap detected (housekeeper delta=6m35s246ms211µs300ns).
+INFO 2022-11-11 16:03:18 org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean module:drugsfda - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-11 16:03:18 com.zaxxer.hikari.HikariDataSource module:drugsfda - hikari-pool - Shutdown initiated...
+INFO 2022-11-11 16:03:18 com.zaxxer.hikari.HikariDataSource module:drugsfda - hikari-pool - Shutdown completed.
